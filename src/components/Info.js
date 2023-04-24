@@ -25,7 +25,7 @@ class GeneralInformation extends Component {
     return (
       <div className="general-information">
         <div>
-          <h2>General Information</h2>
+          <h2 class="info-head">General Information</h2>
           <p>Name: {name}</p>
           <p>Email: {email}</p>
           <p>Phone Number: {phoneNumber}</p>

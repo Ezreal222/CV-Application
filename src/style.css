@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    overflow: auto;
+    overflow: scroll;
 }
 
 .edit-container {
@@ -37,7 +37,13 @@
     position: absolute;
     top: 25px;
     height: 20px;
-    left: 120px;
+    left: 47%;
+}
+.add-experience {
+    position: absolute;
+    top: 25px;
+    height: 20px;
+    left: 47%;
 }
 .edit-form-3 {
     position: absolute;
@@ -53,14 +59,51 @@
     display: flex;
 }
 .education {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 2/3;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
 }
 .experience {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 3/4;
     display: flex;
     position: relative;
+}
+
+.education-unit {
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+.experience-unit {
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.education-head {
+    position: absolute;
+    left: 35%;
+}
+.experience-head {
+    position: absolute;
+    left: 35%;
+}
+.info-head {
+    left: 35%;
 }
